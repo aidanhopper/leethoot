@@ -1,10 +1,11 @@
 import Link from 'next/link'
+import { Button, TextField, Typography } from '@mui/material';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Link href="/host/decks">Host</Link>
-      <Link href="/enter-game">Player</Link>
+    <main>
+      <Button href="/host/decks">Host</Button>
+      <Button href="/enter-game">Player</Button>
     </main>
   )
 }
