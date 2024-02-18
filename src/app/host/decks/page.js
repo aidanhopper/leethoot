@@ -1,4 +1,9 @@
+import Link from 'next/link'
+import { Box, Button, TextField, Typography } from '@mui/material';
+
 export default function Decks() {
+
+  const button_margin = 2;
 
   var deck =  [{ Question: "Which data structure uses LIFO (Last In, First Out) principle?", Answer: "Stack"}, 
   {Question: "What is the time complexity of searching for an element in a balanced binary search tree (BST)?", Answer: "O(log n)"},
@@ -10,7 +15,20 @@ export default function Decks() {
   {Question: "What is a linked list?", Answer: "A data structure consisting of a sequence of nodes where each node contains a reference to the next node in the sequence"}]
   
   
-  return <>Put the list of decks here.</>
+  return (
 
+    <main>
+      <Box
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      height="100vh">
+        <Button
+        variant="contained" size="large" sx={{ m: button_margin }} href="/host/start">
+          click me
+        </Button>
+      </Box>
+    </main>
+  )
 }
 
