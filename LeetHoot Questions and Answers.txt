@@ -1,0 +1,26 @@
+
+Question: "Which data structure uses LIFO (Last In, First Out) principle?" 
+Answer: "Stack", Incorrect1: "Heap", Incorrect2: "Queue", Incorrect3: "Linked List" 
+
+
+Question: "What is the time complexity of searching for an element in a balanced binary search tree (BST)?"
+Answer: "O(log n)", Incorrect1: "O(n^2)", Incorrect2: "O(n log n)", Incorrect3: "O(n)"
+
+
+Question: "In C++, what keyword is used to dynamically allocate memory?"
+Answer: "new", Incorrect1: "malloc", Incorrect2: "allocate", Incorrect3: "reserve"
+
+Question: "Which of the following is a sorting algorithm that has a worst-case time complexity of O(n^2)?"
+Answer: "Bubble Sort", Incorrect1: "Merge Sort", Incorrect2: "Quick Sort", Incorrect3: "Heap Sort"
+
+Question: "What is the purpose of a constructor in C++?"
+Answer: "To initialize the values of class variables", Incorrect1: "To free up memory allocated by objects", Incorrect2: "To declare a class", Incorrect3: "To define the behavior of operators"
+
+Question: "Which data structure is used to implement priority queues efficiently?" 
+Answer: "Heap", Incorrect1: "Stack", Incorrect2: "Queue", Incorrect3: "Linked List"
+
+Question: "Which of the following is NOT a valid method of traversing a binary tree?"
+Answer: "Parallel Order", Incorrect1: "Preorder", Incorrect2: "Postorder", Incorrect3: "Inorder"
+
+Question: "What is a linked list?", 
+Answer: "A data structure consisting of a sequence of nodes where each node contains a reference to the next node in the sequence", Incorrect1: "A linear data structure in which elements are stored in contiguous memory locations", Incorrect2: "A data structure that stores elements in key-value pairs", Incorrect3: "A collection of elements with no specific order"
