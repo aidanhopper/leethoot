@@ -15,6 +15,7 @@ export default function Decks() {
   {Question: "What is a linked list?", Answer: "A data structure consisting of a sequence of nodes where each node contains a reference to the next node in the sequence"}]
   
   
+  
   return (
 
     <main>
@@ -23,10 +24,23 @@ export default function Decks() {
       justifyContent="center"
       alignItems="center"
       height="100vh">
-        <Button
-        variant="contained" size="large" sx={{ m: button_margin }} href="/host/start">
-          click me
-        </Button>
+        <ol>
+          <li>
+            <Button variant="contained" size="large" sx={{ m: button_margin }} href="/host/start">
+          select deck 1
+            </Button>
+          </li>
+          <li>
+            <Button variant="contained" size="large" sx={{ m: button_margin }} href="/host/start">
+          select deck 2
+            </Button>
+          </li>
+          <li>
+            <Button variant="contained" size="large" sx={{ m: button_margin }} href="/host/start">
+          select deck 3
+            </Button>
+          </li>
+        </ol>
       </Box>
     </main>
   )
