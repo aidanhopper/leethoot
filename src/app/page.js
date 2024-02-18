@@ -5,6 +5,12 @@ export default function Home() {
 
   const button_margin = 2
 
+  //var file = fetch("api/questions").then(
+    //response => {
+     // return response.json()
+    //}).then(data)
+
+
   return (
     <main>
       <Box
