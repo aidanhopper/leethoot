@@ -13,7 +13,7 @@ export default function EnterGame() {
     >
       <TextField id="standard-basic" label="Session ID" variant="standard" sx={{ m: textbox_margin }} />
       <TextField id="standard-basic" label="Name" variant="standard" sx={{ m: textbox_margin }} />
-      <Button variant="contained" size="large" sx={{ m: textbox_margin }} href="/host/decks">submit</Button>
+      <Button variant="contained" size="large" sx={{ m: textbox_margin }} href="/lobby">submit</Button>
     </Grid>
   )
 }
