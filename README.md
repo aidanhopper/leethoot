@@ -8,5 +8,4 @@ Leonardo Curdi: leonardo.curdi@wsu.edu
 Aidan Hopper: aidan.hopper@wsu.edu
 Casey Martin: casey.k.martin@wsu.edu
 Samuel Stanley: samuel.c.stanley@wsu.edu
-Benjamin Swanzey: benjamin.swanzey@wsu.edu
 Calvin Wieland: calvin.wieland@wsu.edu
